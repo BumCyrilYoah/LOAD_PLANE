@@ -85,6 +85,32 @@ public:
           }
           return -1;
      }
+     static ask_text(std::string prompt) {
+          CONSOLE_SCREEN_BUFFER_INFO s;
+          HANDLE console = GetStdHandle(STD_OUTPUT_HANDLE);
+          GetConsoleScreenBufferInfo(console, &s);
+
+          COORD origin = s.dwCursorPosition;
+          int Swidth = s.dwSize.X;
+          int width;
+
+          std::string txt = "";
+          while(1) {
+               clsu(origin.Y);
+               width = prompt.size() + 2 + txt.size();
+
+               cout << ""
+
+               for(int i = 0; i < num; i++) {
+                    std::cout << i + 1 << ") " << options[i] << std::endl;
+               }
+               while(!kbhit()) Sleep(500);
+               char opt = getch();
+               if(opt == '\r') break;
+               txt += opt;
+          }
+          return -1;
+     }
 };
 
 #endif // UI_H_INCLUDED
