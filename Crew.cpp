@@ -7,9 +7,6 @@
 #include<math.h>
 #include<ctime>
 #include<algorithm>
-
-#include "UI.h"
-
 using namespace std;
 
 Crew::Crew()
@@ -25,19 +22,19 @@ Crew::Crew(std::string name):name(name)
 void Crew::Menu()
 {
     while(true) {
-
-        std::string opts[] = {"Pilot", "Flight Attendant"};
-        int choice = Console::ask_options("Welcome to the crew!\n Where do you want to register?", opts, 2);
-
+        cout << "Welcome to the crew!\n Where do you want to register?" << endl;
+        cout << "1) Pilot\n2) Flight Attendant" << endl;
+        char choice;
+        cin >> choice;
         switch(choice) {
-        case 0:
+        case '1':
                if(!this->pilots_full()) {
                     this->GetPilot();
                } else {
                     cout << "No Further Pilot Entry Allowed!" << endl;
                }
             break;
-        case 1:
+        case '2':
             if(!this->attendants_full()) {
                  this->GetAttendant();
             } else {

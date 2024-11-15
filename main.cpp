@@ -4,7 +4,6 @@
 #include<math.h>
 #include<ctime>
 #include<algorithm>
-
 #include "Plane.h"
 #include "Crew.h"
 #include "Passengers.h"
@@ -48,16 +47,14 @@ int main()
      return 0;
 
 }
-
-#include "UI.h"
-
  void BoardingType(){
       Plane PlaneObject;
     BoardingType:
     Crew crew;
-    cout << "ello pyht";
-     std::string opts[] = {"Crew Member", "Passanger"};
-     int choice = Console::ask_options("Welcome Sir/Madam, Where are we going?", opts, 2);
+    int choice;
+    cout << "Welcome Sir/Madam, Where are we going?\n1) Crew Member\n2) Passanger\n> ";
+    cin >> choice;
+    choice--;
   if(choice == 0){
             crew.Menu();
    }
