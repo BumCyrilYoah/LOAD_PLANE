@@ -1,0 +1,151 @@
+# depslib dependency file v1.0
+1731421500 source:c:\users\pc\downloads\loadplane\load_plane\crew.cpp
+	"Crew.h"
+	"Pilot.h"
+	"Flight_Attendant.h"
+	<iostream>
+	<vector>
+	<string>
+	<math.h>
+	<ctime>
+	<algorithm>
+
+1731658996 c:\users\pc\downloads\loadplane\load_plane\crew.h
+	"Plane.h"
+	"Flight_Attendant.h"
+	"Pilot.h"
+
+1731426580 c:\users\pc\downloads\loadplane\load_plane\plane.h
+
+1731506135 source:c:\users\pc\downloads\loadplane\load_plane\first_class.cpp
+	"First_Class.h"
+	<iostream>
+	<vector>
+	<string>
+	<math.h>
+	<ctime>
+	<algorithm>
+	<cstdlib>
+
+1731502632 c:\users\pc\downloads\loadplane\load_plane\first_class.h
+	<string>
+	"Passengers.h"
+
+1731508735 c:\users\pc\downloads\loadplane\load_plane\passengers.h
+	<vector>
+	"Plane.h"
+	"Passenger.h"
+	<string>
+
+1731240729 source:c:\users\pc\downloads\loadplane\load_plane\flight_attendant.cpp
+	"Flight_Attendant.h"
+	<iostream>
+	<vector>
+	<string>
+	<math.h>
+	<ctime>
+	<algorithm>
+
+1731659961 c:\users\pc\downloads\loadplane\load_plane\flight_attendant.h
+	<cstdlib>
+	<string>
+	"Crew.h"
+
+1731490821 source:c:\users\pc\downloads\loadplane\load_plane\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	<math.h>
+	<ctime>
+	<algorithm>
+	"Plane.h"
+	"Crew.h"
+	"Passengers.h"
+	"Business_Class.h"
+	"Economic_Class.h"
+	"First_Class.h"
+	"Flight_Attendant.h"
+	"Pilot.h"
+	"UI.h"
+
+1731504926 c:\users\pc\downloads\loadplane\load_plane\business_class.h
+	"Passengers.h"
+	<string>
+
+1731660270 c:\users\pc\downloads\loadplane\load_plane\economic_class.h
+	<string>
+	"Passengers.h"
+
+1731659320 c:\users\pc\downloads\loadplane\load_plane\pilot.h
+	<cstdlib>
+	<string>
+	"Crew.h"
+
+1731506142 source:c:\users\pc\downloads\loadplane\load_plane\business_class.cpp
+	"Business_Class.h"
+	<iostream>
+	<vector>
+	<string>
+	<math.h>
+	<ctime>
+	<algorithm>
+	<cstdlib>
+
+1731510181 source:c:\users\pc\downloads\loadplane\load_plane\passengers.cpp
+	"Passengers.h"
+	<iostream>
+	<vector>
+	<string>
+	<math.h>
+	<ctime>
+	<algorithm>
+	<memory>
+
+1731240745 source:c:\users\pc\downloads\loadplane\load_plane\pilot.cpp
+	"Pilot.h"
+	<iostream>
+	<vector>
+	<string>
+	<math.h>
+	<ctime>
+	<algorithm>
+
+1731506487 source:c:\users\pc\downloads\loadplane\load_plane\economic_class.cpp
+	"Economic_Class.h"
+	<iostream>
+	<vector>
+	<string>
+	<math.h>
+	<ctime>
+	<algorithm>
+	<cstdlib>
+
+1731508252 source:c:\users\pc\downloads\loadplane\load_plane\plane.cpp
+	"Plane.h"
+	"Business_Class.h"
+	"Economic_Class.h"
+	"First_Class.h"
+	"Crew.h"
+	"Passengers.h"
+	<iostream>
+	<vector>
+	<string>
+	<math.h>
+	<ctime>
+	<algorithm>
+	<memory>
+
+1731504632 c:\users\pc\downloads\loadplane\load_plane\passenger.h
+	<string>
+
+1731504842 source:c:\users\pc\downloads\loadplane\load_plane\passenger.cpp
+	"Passenger.h"
+	<string>
+	<cmath>
+
+1731657989 c:\users\pc\downloads\loadplane\load_plane\ui.h
+	<string>
+	<windows.h>
+	<stdlib.h>
+	<conio.h>
+
